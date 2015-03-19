@@ -39,19 +39,25 @@
 		background-image: url('../img/whitneyseafoam.png');
 		padding: 6% 0 0 0;
 	}
-	#section3 h1{
-		color: #000;
-	}
+	
 
 
  	/*Adding background for the slides
 	* --------------------------------------- */
 	#slide1{
-		background-image: url('../img/whitneypink.png');
+		background-image: url('../img/symphonypink.png');
 		padding: 6% 0 0 0;
 	}
 	#slide2{
-		background-image: url('../img/whitneyteal.png');
+		background-image: url('../img/symphonyteal.png');
+		padding: 6% 0 0 0;
+	}
+	#slide3{
+		background-image: url('../img/symphonypurple.png');
+		padding: 6% 0 0 0;
+	}
+	#slide4{
+		background-image: url('../img/symphonyblue.png');
 		padding: 6% 0 0 0;
 	}
 

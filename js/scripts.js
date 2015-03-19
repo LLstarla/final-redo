@@ -1,8 +1,10 @@
 $(document).ready(function() {
       $('#fullpage').fullpage({
         verticalCentered: false,
-
-        //to avoid problems with css3 transforms and fixed elements in Chrome, as detailed here: https://github.com/alvarotrigo/fullPage.js/issues/208
+        continuousVertical: true,
         css3:false
       });
     });
+
+
+
