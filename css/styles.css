@@ -21,22 +21,22 @@
 	#section1,
 	#section2,
 	#section3{
-		background-size: cover;
+		background-size: auto;
 		background-attachment: fixed;
 	}
 
 	/* Defining each section background and styles
 	* --------------------------------------- */
 	#section0{
-		background-image: url('../img/whitneypurple.png');
+		background-image: url('../img/woodpurple.png');
 		padding: 30% 0 0 0;
 	}
 	#section2{
-		background-image: url('../img/whitneyblue.png');
+		background-image: url('../img/flowersblue.png');
 		padding: 6% 0 0 0;
 	}
 	#section3{
-		background-image: url('../img/whitneyseafoam.png');
+		background-image: url('../img/woodseafoam.png');
 		padding: 6% 0 0 0;
 	}
 	#section3 h1{
@@ -47,17 +47,12 @@
  	/*Adding background for the slides
 	* --------------------------------------- */
 	#slide1{
-		background-image: url('../img/whitneypink.png');
+		background-image: url('../img/woodpink.png');
 		padding: 6% 0 0 0;
 	}
 	#slide2{
-		background-image: url('../img/whitneyteal.png');
+		background-image: url('../img/woodteal.png');
 		padding: 6% 0 0 0;
 	}
 
 
-	/* Bottom menu
-	* --------------------------------------- */
-	#infoMenu li a {
-		color: #fff;
-	}
