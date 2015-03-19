@@ -1,15 +1,20 @@
 .bio  {
-
+	background: url('../img/whitneypurple.png');
 }
 
 .resume {
-
+	background: url('../img/whitneyblue.png');
 }
 
 .portfolio {
-
+	background: url('../img/whitneyseafoam.png');
 }
 
 .foot {
+	background: url('../img/whitneypink.png');
+}
 
+section {
+	width: 100%;
+	height: 300px;
 }
