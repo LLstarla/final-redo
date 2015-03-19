@@ -1,20 +1,63 @@
-.bio  {
-	background: url('../img/whitneypurple.png');
-}
+/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
 
-.resume {
-	background: url('../img/whitneyblue.png');
-}
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
 
-.portfolio {
-	background: url('../img/whitneyseafoam.png');
-}
 
-.foot {
-	background: url('../img/whitneypink.png');
-}
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	#section0,
+	#section1,
+	#section2,
+	#section3{
+		background-size: cover;
+		background-attachment: fixed;
+	}
 
-section {
-	width: 100%;
-	height: 300px;
-}
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		background-image: url('../img/whitneypurple.png');
+		padding: 30% 0 0 0;
+	}
+	#section2{
+		background-image: url('../img/whitneyblue.png');
+		padding: 6% 0 0 0;
+	}
+	#section3{
+		background-image: url('../img/whitneyseafoam.png');
+		padding: 6% 0 0 0;
+	}
+	#section3 h1{
+		color: #000;
+	}
+
+
+ 	/*Adding background for the slides
+	* --------------------------------------- */
+	#slide1{
+		background-image: url('../img/whitneypink.png');
+		padding: 6% 0 0 0;
+	}
+	#slide2{
+		background-image: url('../img/whitneyteal.png');
+		padding: 6% 0 0 0;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
