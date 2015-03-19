@@ -28,15 +28,15 @@
 	/* Defining each section background and styles
 	* --------------------------------------- */
 	#section0{
-		background-image: url('../img/woodpurple.png');
+		background-image: url('../img/whitneypurple.png');
 		padding: 30% 0 0 0;
 	}
 	#section2{
-		background-image: url('../img/flowersblue.png');
+		background-image: url('../img/whitneyblue.png');
 		padding: 6% 0 0 0;
 	}
 	#section3{
-		background-image: url('../img/woodseafoam.png');
+		background-image: url('../img/whitneyseafoam.png');
 		padding: 6% 0 0 0;
 	}
 	#section3 h1{
@@ -47,11 +47,11 @@
  	/*Adding background for the slides
 	* --------------------------------------- */
 	#slide1{
-		background-image: url('../img/woodpink.png');
+		background-image: url('../img/whitneypink.png');
 		padding: 6% 0 0 0;
 	}
 	#slide2{
-		background-image: url('../img/woodteal.png');
+		background-image: url('../img/whitneyteal.png');
 		padding: 6% 0 0 0;
 	}
 
