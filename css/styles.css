@@ -31,11 +31,11 @@ Seafoam.... #OOA692 rgba(0,166,146,1)
 	/* Defining each section background and styles
 	* --------------------------------------- */
 	#section0{
-		background-image: url('../img/whitneypurple.png');
+		background-image: url('../img/whitneyblue.png');
 		padding: 30% 0 0 0;
 	}
 	#section1{
-		background-image: url('../img/whitneyblue.png');
+		background-image: url('../img/whitneypurple.png');
 		padding: 6% 0 0 0;
 	}
 	#section3{
@@ -62,27 +62,12 @@ Seafoam.... #OOA692 rgba(0,166,146,1)
 		padding: 6% 0 0 0;
 	}
 
-/*********** HEADER *******************/
-
-	#header {
-			position:fixed;
-			top:0px;
-			height: 30px;
-			display:block;
-			width: 100%;
-			background: url('../img/whitneypurple.png');
-			z-index:9;
-			padding-top: 10px;
-			text-align: left;
-			color: #f2f2f2;
-		}
-
 /*********** HEADINGS *****************/
 
 	h1 {
 		font-size: 5em;
-		font-family: arial,helvetica;
-		color: #fff;
+		font-family: 'Questrial';
+		color: #764E76;
 		margin:0;
 		padding:0;
 	}
@@ -119,13 +104,22 @@ Seafoam.... #OOA692 rgba(0,166,146,1)
 
 /*********** IMAGES *******************/
 
-	img {
-		
+	.loralee {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 20%;
 	}
 
+	.iconz {
+		position: relative;
+		width: 20%;
+	}
 
-
-
-
+/*** CLASS TAGS ***/
+	/*
+	.loralee
+	.iconz 
+	*/
 
 
