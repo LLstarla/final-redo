@@ -121,7 +121,17 @@ Icon Purple: #723F6E;
 		font-family: 'ABeeZee', sans-serif;
 	}
 
+	a i {
+		color: #00A692;
+		padding: 30px;
+		margin: 0 10px 0 10px;
+	}
 	
+	.icony {
+		position: relative;
+		margin-top: 100px;
+
+	}
 
 /*********** IMAGES *******************/
 
@@ -142,8 +152,8 @@ Icon Purple: #723F6E;
 	/*
 	.loralee
 	.iconz 
-	.info
 	.contact
+	.icony
 
 	font-family: 'ABeeZee', sans-serif;
 	font-family: 'Quicksand', sans-serif;
