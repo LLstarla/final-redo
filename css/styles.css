@@ -35,35 +35,32 @@ Icon Purple: #723F6E;
 	* --------------------------------------- */
 	#section0{
 		background-image: url('../img/whitneyblue.png');
-		padding: 6% 0 0 0;
+		padding: 6%;
 	}
 	#section1{
 		background-image: url('../img/whitneypurple.png');
-		padding: 6% 0 0 0;
+		padding: 6%;
 	}
-	#section3{
-		background-image: url('../img/whitneyseafoam.png');
-		padding: 6% 0 0 0;
-	}
+
 	
  	/*Adding background for the slides
 	* --------------------------------------- */
 	#slide1{
-		background-image: url('../img/symphonypink.png');
-		padding: 6% 0 0 0;
+		background-image: url('../img/symphonyseafoam.png');
+		padding: 1%;
+		background-attachment: fixed;
 	}
 	#slide2{
-		background-image: url('../img/symphonyteal.png');
-		padding: 6% 0 0 0;
+		background-image: url('../img/symphonypurple.png');
+		padding: 1%;
+		background-attachment: fixed;
 	}
 	#slide3{
-		background-image: url('../img/symphonypurple.png');
-		padding: 6% 0 0 0;
-	}
-	#slide4{
 		background-image: url('../img/symphonyblue.png');
-		padding: 6% 0 0 0;
+		padding: 1%;
+		background-attachment: fixed;
 	}
+	
 
 /*********** HEADINGS *****************/
 
@@ -86,7 +83,7 @@ Icon Purple: #723F6E;
 	}
 
 	h3 {
-		font-size: 3rem;
+		font-size: 4rem;
 		font-family: 'ABeeZee', sans-serif;
 		color: #00A692;
 		margin-left: 15px;
@@ -94,15 +91,67 @@ Icon Purple: #723F6E;
 		text-align: left;
 	}
 
-	h4 {
+	.resone {
+		font-size: 4rem;
+		font-family: 'ABeeZee', sans-serif;
+		color: #764E76;
+		margin-left: 15px;
+		padding: 0;
+		text-align: left;
+	}
 
+	.restwo {
+		font-size: 4rem;
+		font-family: 'ABeeZee', sans-serif;
+		color: #7B84C9;
+		margin-left: 15px;
+		padding: 0;
+		text-align: left;
+	}
+
+	.resthree {
+		font-size: 4rem;
+		font-family: 'ABeeZee', sans-serif;
+		color: #00A692;
+		margin-left: 15px;
+		padding: 0;
+		text-align: left;
+	}
+
+
+	h4 {
+		font-size: 2rem;
+		font-family: 'Oxygen', sans-serif;
+		font-weight: 300;
+		color: #FCDBE6;
+		margin-top: -40px;
+		
 	}
 
 	h5 {
-
+		display: block;
+		font-size: 1.8rem;
+		font-family: 'Oxygen', sans-serif;
+		font-weight: 300;
+		color: #FCDBE6;
+		margin: 5px;
 	}
 
-/*********** CONTENT ******************/
+	h6 {
+		display: block;
+		font-size: 1.5rem;
+		font-style: italic;
+		font-family: 'Oxygen', sans-serif;
+		font-weight: 300;
+		color: #FCDBE6;
+		margin: 5px;
+	}
+
+	.school {
+		margin-top: 40px;
+	}
+
+/*********** ABOUT ME ******************/
 
 	.info {
 		margin-top: 8%;
@@ -113,10 +162,16 @@ Icon Purple: #723F6E;
 		font-family: 'Oxygen', sans-serif;
 		font-weight: 300;
 		color: #FCDBE6;
-		margin: 35px 5% 35px 5%;
+		margin: 40px 5% 40px 5%;
 	}
 
-
+	.emp {
+		font-size: 1.2rem;
+		font-family: 'Oxygen', sans-serif;
+		font-weight: 300;
+		color: #FCDBE6;
+		margin: 0 3% 20px 3%;
+	}
 
 	.contact li {
 		list-style: none;
@@ -150,7 +205,7 @@ Icon Purple: #723F6E;
 	.loralee {
 		position: absolute;
 		left: 0;
-		bottom: 0;
+		bottom: 1px;
 		width: 20%;
 	}
 
