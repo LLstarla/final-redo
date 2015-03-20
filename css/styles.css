@@ -112,7 +112,7 @@ Icon Purple: #723F6E;
 	.resthree {
 		font-size: 4rem;
 		font-family: 'ABeeZee', sans-serif;
-		color: #00A692;
+		color: #764E76;
 		margin-left: 15px;
 		padding: 0;
 		text-align: left;
@@ -216,25 +216,33 @@ Icon Purple: #723F6E;
 	}
 
 	.pie {
-    display: inline;
+    display: inline-block;
+    color: #FCDBE6;
 	} 
 
-	span {
-		text-align: center;
-		float: center;
-		margin-top: 20px;
-	}
-/*** CLASS TAGS ***/
-	/*
-	.loralee
-	.iconz 
-	.contact
-	.icony
+	.circliful {
+    position: relative; 
+}
 
-	font-family: 'ABeeZee', sans-serif;
-	font-family: 'Quicksand', sans-serif;
-	font-family: 'Oxygen', sans-serif;
-	font-family: 'Questrial', sans-serif;
-	*/
+.circle-text, .circle-info, .circle-text-half, .circle-info-half {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+}
+
+.circle-info, .circle-info-half {
+	color: #999;
+}
+
+.circliful .fa {
+	margin: -10px 3px 0 3px;
+	position: relative;
+	bottom: 4px;
+}
+
+.skilz {
+	margin-bottom: 6%;
+}
 
 
