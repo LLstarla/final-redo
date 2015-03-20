@@ -8,7 +8,10 @@ Blue....... #7B84C9 rgba(123,132,201,1)
 Teal....... #91E2D5 rgba(145,226,213,1)
 Seafoam.... #OOA692 rgba(0,166,146,1)
 
+Icon Purple: #723F6E;
 */
+
+
 
 /*********** SECTION LAYOUT ***********/
 	/* Centered texts in each section
@@ -67,7 +70,7 @@ Seafoam.... #OOA692 rgba(0,166,146,1)
 	h1 {
 		font-size: 5em;
 		font-family: 'Questrial';
-		color: #764E76;
+		color: #723F6E;
 		margin:0;
 		padding:0;
 	}
