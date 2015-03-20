@@ -5,7 +5,6 @@ $(document).ready(function() {
         slidesNavigation: true,
         responsive: 700,
         scrollingSpeed: 1000,
-        scrollOverflow: true,
         css3:false
       });
     });
