@@ -6,7 +6,7 @@ Pink....... #FCDBE6 rgba(252,219,230,1)
 Purple..... #764E76 rgba(118,78,118,1)
 Blue....... #7B84C9 rgba(123,132,201,1)
 Teal....... #91E2D5 rgba(145,226,213,1)
-Seafoam.... #OOA692 rgba(0,166,146,1)
+Seafoam.... #00A692 rgba(0,166,146,1)
 
 Icon Purple: #723F6E;
 */
@@ -35,7 +35,7 @@ Icon Purple: #723F6E;
 	* --------------------------------------- */
 	#section0{
 		background-image: url('../img/whitneyblue.png');
-		padding: 30% 0 0 0;
+		padding: 6% 0 0 0;
 	}
 	#section1{
 		background-image: url('../img/whitneypurple.png');
@@ -68,19 +68,30 @@ Icon Purple: #723F6E;
 /*********** HEADINGS *****************/
 
 	h1 {
-		font-size: 5em;
-		font-family: 'Questrial';
+		font-size: 5.5rem;
+		font-family: 'Questrial', sans-serif;
 		color: #723F6E;
 		margin:0;
 		padding:0;
+		text-shadow: 4px 4px #7B84C9;
 	}
 
 	h2 {
-
+		font-size: 3.5rem;
+		font-family: 'Questrial', sans-serif;
+		color: #7B84C9;
+		margin-top: 70px;
+		padding:0;
+		text-shadow: 4px 4px #764E76;
 	}
 
 	h3 {
-
+		font-size: 3rem;
+		font-family: 'ABeeZee', sans-serif;
+		color: #00A692;
+		margin-left: 10px;
+		padding:0;
+		text-align: left;
 	}
 
 	h4 {
@@ -94,16 +105,23 @@ Icon Purple: #723F6E;
 /*********** CONTENT ******************/
 
 	p {
-
+		font-size: 1.3rem;
+		font-family: 'Oxygen', sans-serif;
+		font-weight: 300;
+		color: #FCDBE6;
+		text-align: left;
+		margin: 10px 20px 10px 20px;
 	}
 
-	ul {
-
+	.contact li {
+		list-style: none;
+		display: inline;
+		padding: 20px;
+		font-size: 1.1rem;
+		font-family: 'ABeeZee', sans-serif;
 	}
 
-	li {
-
-	}
+	
 
 /*********** IMAGES *******************/
 
@@ -116,13 +134,21 @@ Icon Purple: #723F6E;
 
 	.iconz {
 		position: relative;
-		width: 20%;
+		width: 30%;
+		margin-top: 60px;
 	}
 
 /*** CLASS TAGS ***/
 	/*
 	.loralee
 	.iconz 
+	.info
+	.contact
+
+	font-family: 'ABeeZee', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Oxygen', sans-serif;
+	font-family: 'Questrial', sans-serif;
 	*/
 
 

@@ -7,7 +7,8 @@ $(document).ready(function() {
         scrollingSpeed: 1000,
         css3:false
       });
-    });
+
+});
 
 
 
