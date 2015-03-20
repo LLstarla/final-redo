@@ -215,6 +215,15 @@ Icon Purple: #723F6E;
 		margin-top: 60px;
 	}
 
+	.pie {
+    display: inline;
+	} 
+
+	span {
+		text-align: center;
+		float: center;
+		margin-top: 20px;
+	}
 /*** CLASS TAGS ***/
 	/*
 	.loralee

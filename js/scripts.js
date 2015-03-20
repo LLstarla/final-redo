@@ -10,13 +10,16 @@ $(document).ready(function() {
 
 });
 
-$( document).ready(function() {
-        $('#myStathalf').circliful();
-		$('#myStat').circliful();
-		$('#myStathalf2').circliful();
-		$('#myStat2').circliful();
-    $('#myStat3').circliful();
-    $('#myStat4').circliful();
-    $('#myStathalf3').circliful();
-    });
+$( document ).ready(function() {
+        $('#myStat0').circliful();
+        $('#myStat1').circliful();
+        $('#myStat2').circliful();
+        $('#myStat3').circliful();
+        $('#myStat4').circliful();
+        $('#myStat5').circliful();
+        $('#myStat6').circliful();
+        $('#myStat7').circliful();
+        $('#myStat8').circliful();
+        $('#myStat9').circliful();
 
+    });
