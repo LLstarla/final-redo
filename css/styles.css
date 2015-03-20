@@ -1,16 +1,12 @@
-/*
+/*  Color Palette:
 
-Color Palette:
+	Pink....... #FCDBE6 rgba(252,219,230,1)
+	Purple..... #764E76 rgba(118,78,118,1)
+	Blue....... #7B84C9 rgba(123,132,201,1)
+	Teal....... #91E2D5 rgba(145,226,213,1)
+	Seafoam.... #00A692 rgba(0,166,146,1)
 
-Pink....... #FCDBE6 rgba(252,219,230,1)
-Purple..... #764E76 rgba(118,78,118,1)
-Blue....... #7B84C9 rgba(123,132,201,1)
-Teal....... #91E2D5 rgba(145,226,213,1)
-Seafoam.... #00A692 rgba(0,166,146,1)
-
-Icon Purple: #723F6E;
-*/
-
+	Icon Purple: #723F6E;   */
 
 
 /*********** SECTION LAYOUT ***********/
@@ -19,7 +15,6 @@ Icon Purple: #723F6E;
 	.section{
 		text-align:center;
 	}
-
 
 	/* Backgrounds will cover all the section
 	* --------------------------------------- */
@@ -42,7 +37,6 @@ Icon Purple: #723F6E;
 		padding: 6%;
 	}
 
-	
  	/*Adding background for the slides
 	* --------------------------------------- */
 	#slide1{
@@ -61,7 +55,6 @@ Icon Purple: #723F6E;
 		background-attachment: fixed;
 	}
 	
-
 /*********** HEADINGS *****************/
 
 	h1 {
@@ -151,7 +144,7 @@ Icon Purple: #723F6E;
 		margin-top: 40px;
 	}
 
-/*********** ABOUT ME ******************/
+/*********** GENERAL CONTENT ******************/
 
 	.info {
 		margin-top: 8%;
@@ -200,6 +193,36 @@ Icon Purple: #723F6E;
 		margin-right:auto;
 	}
 
+	.pie {
+    display: inline-block;
+    color: #FCDBE6;
+	} 
+
+	.circliful {
+    position: relative; 
+	}
+
+	.circle-text, .circle-info, .circle-text-half, .circle-info-half {
+	    width: 100%;
+	    position: absolute;
+	    text-align: center;
+	    display: inline-block;
+	}
+
+	.circle-info, .circle-info-half {
+		color: #999;
+	}
+
+	.circliful .fa {
+		margin: -10px 3px 0 3px;
+		position: relative;
+		bottom: 4px;
+	}
+
+	.skilz {
+		margin-bottom: 6%;
+	}
+
 /*********** IMAGES *******************/
 
 	.loralee {
@@ -215,34 +238,6 @@ Icon Purple: #723F6E;
 		margin-top: 60px;
 	}
 
-	.pie {
-    display: inline-block;
-    color: #FCDBE6;
-	} 
-
-	.circliful {
-    position: relative; 
-}
-
-.circle-text, .circle-info, .circle-text-half, .circle-info-half {
-    width: 100%;
-    position: absolute;
-    text-align: center;
-    display: inline-block;
-}
-
-.circle-info, .circle-info-half {
-	color: #999;
-}
-
-.circliful .fa {
-	margin: -10px 3px 0 3px;
-	position: relative;
-	bottom: 4px;
-}
-
-.skilz {
-	margin-bottom: 6%;
-}
+	
 
 
